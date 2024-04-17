@@ -4,6 +4,17 @@
 #include <string>
 using namespace std;
 
-/* Type your code here */
+private:
+string itemName;
+int itemPrice;
+int itemQuantity;
+
+public;
+string GetName();
+int GetPrice();
+int GetQuantity();
+void SetName();
+void SetPrice();
+void SetQuantity();
 
 #endif
