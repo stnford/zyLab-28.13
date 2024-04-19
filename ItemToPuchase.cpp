@@ -5,5 +5,10 @@ using namespace std;
 
 void ItemToPurchase::GetName(){
   return itemName;
-}
-void ItemToPurchase::SetName(string newName);
+};
+
+void ItemToPurchase::SetName(string newName){
+  itemName = newName;
+};
+
+
