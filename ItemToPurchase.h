@@ -9,7 +9,7 @@ string itemName;
 int itemPrice;
 int itemQuantity;
 
-public;
+public:
 string GetName();
 int GetPrice();
 int GetQuantity();
