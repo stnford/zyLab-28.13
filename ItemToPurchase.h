@@ -4,17 +4,20 @@
 #include <string>
 using namespace std;
 
-private:
-string itemName;
-int itemPrice;
-int itemQuantity;
+class ItemToPurchase{
+    private:
+    string itemName;
+    int itemPrice;
+    int itemQuantity;
 
-public;
-string GetName();
-int GetPrice();
-int GetQuantity();
-void SetName();
-void SetPrice();
-void SetQuantity();
+    public:
+    ItemToPurchase();
+    string GetName();
+    int GetPrice();
+    int GetQuantity();
+    void SetName(string newName);
+    void SetPrice(int newPrice);
+    void SetQuantity(int newQuantity);
+};
 
 #endif
