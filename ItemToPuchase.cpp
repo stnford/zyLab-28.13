@@ -22,12 +22,12 @@ int ItemToPurchase::GetQuantity(){
 }
 
 // setters
-void SetName(string newName){
+void ItemToPurchase::SetName(string newName){
   itemName = newName;
 }
-void SetPrice(int newPrice){
+void ItemToPurchase::SetPrice(int newPrice){
   itemPrice = newPrice;
 }
-void SetQuantity(int newQuantity){
+void ItemToPurchase::SetQuantity(int newQuantity){
   itemQuantity = newQuantity;
 }
